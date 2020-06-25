@@ -1,0 +1,14 @@
+/*CREATE TABLE ARTISTAS(
+nombreArtista VARCHAR(100) PRIMARY KEY
+);*/
+
+/*CREATE TABLE ÁLBUMES(
+posición INT(3) PRIMARY KEY,
+título VARCHAR(100),
+nombreArtista VARCHAR(100),
+año INT(4),
+FOREIGN KEY (nombreArtista) REFERENCES ARTISTAS(nombreArtista) ON DELETE CASCADE
+);*/
+
+
+
