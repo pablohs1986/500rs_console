@@ -18,9 +18,10 @@ Console app with 500 Greatest Albums by Rolling Stones. I used JDBC to connect t
 
 ![rs4](https://user-images.githubusercontent.com/57707569/85691524-dde02e00-b6d4-11ea-9c7e-3e5ae2480095.jpg)
 
-- Option 4 allows you to filter by artist:
+- Option 4 allows you to filter by artist, searching for a matching substring:
 
 ![rs5](https://user-images.githubusercontent.com/57707569/85691527-de78c480-b6d4-11ea-8da6-f07921510904.jpg)
 
+Rock & roll :metal:
 
 > © 2020 Pablo Herrero
