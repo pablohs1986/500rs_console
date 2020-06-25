@@ -22,6 +22,6 @@ Console app with 500 Greatest Albums by Rolling Stones. I used JDBC to connect t
 
 ![rs5](https://user-images.githubusercontent.com/57707569/85691527-de78c480-b6d4-11ea-8da6-f07921510904.jpg)
 
-Rock & roll :metal:
+Rock & Roll :metal:
 
 > © 2020 Pablo Herrero
