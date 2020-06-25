@@ -1,6 +1,6 @@
 # **500 GREATEST ALBUMS OF ALL TIME BY ROLLING STONE - CONSOLE VERSION** 
 
-Console app with 500 Greatest Albums by Rolling Stones. I used JDBC to connect the program with a database in MySQL. These are its features:
+Console app with 500 Greatest Albums by Rolling Stones. I used JDBC to connect the program with a MySQL database. These are its features:
 
 - Menu where you can choose an option or exit:
 
