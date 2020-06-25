@@ -68,9 +68,11 @@ public class Opcion {
             System.out.println("Enter the decade you want to see (example: 1960):");
             Scanner sc = new Scanner(System.in);
             int decada = sc.nextInt();
+            int decada9 = decada + 9;
             s = conexion.createStatement();
-            PreparedStatement stmt = conexion.prepareStatement("SELECT AÑO, POSICIÓN, TÍTULO, NOMBREARTISTA FROM ÁLBUMES WHERE AÑO <= ? ORDER BY POSICIÓN");
+            PreparedStatement stmt = conexion.prepareStatement("SELECT AÑO, POSICIÓN, TÍTULO, NOMBREARTISTA FROM ÁLBUMES WHERE AÑO BETWEEN ? AND ? ORDER BY POSICIÓN");
             stmt.setInt(1, decada);
+            stmt.setInt(2, decada9);
             ResultSet listado = stmt.executeQuery();
             
             String format = ("\t%-9s | %-9s| %-30s | %-30s\n");
@@ -93,7 +95,7 @@ public class Opcion {
             Scanner sc = new Scanner(System.in);
             String artista = sc.nextLine();
             s = conexion.createStatement();
-            PreparedStatement stmt = conexion.prepareStatement("SELECT AÑO, POSICIÓN, TÍTULO, NOMBREARTISTA FROM ÁLBUMES WHERE NOMBREARTISTA = ? ORDER BY POSICIÓN");
+            PreparedStatement stmt = conexion.prepareStatement("SELECT AÑO, POSICIÓN, TÍTULO, NOMBREARTISTA FROM ÁLBUMES WHERE UPPER(NOMBREARTISTA) LIKE CONCAT('%', ?, '%') ORDER BY POSICIÓN");
             stmt.setString(1, artista);
             ResultSet listado = stmt.executeQuery();
 
