@@ -10,7 +10,7 @@ Console app with 500 Greatest Albums by Rolling Stones. I used JDBC to connect t
 
 ![rs2](https://user-images.githubusercontent.com/57707569/85691517-dd479780-b6d4-11ea-9297-9c7a9e1eabbd.jpg)
 
-- Option 2 advises you a random album removed from the list:
+- Option 2 recommends a random album from the list:
 
 ![rs3](https://user-images.githubusercontent.com/57707569/85691522-dde02e00-b6d4-11ea-90bd-333d1941b640.jpg)
 
